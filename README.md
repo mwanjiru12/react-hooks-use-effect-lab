@@ -1,10 +1,5 @@
 # React useEffect Lab
 
-## Learning Goals
-
-- Use the `useEffect` hook with the dependencies array
-- Use a cleanup function with `useEffect` to stop background processes
-
 ## Overview
 
 In the labs for this section, we're going to be building a trivia app! The first
@@ -26,7 +21,7 @@ use `setTimeout` to run a callback function after 1 second.
 Inside the callback function for `setTimeout`, use the `setTimeRemaining`
 function to decrease the amount of time remaining by 1 every 1 second.
 
-When `timeRemaining` hits 0, do the following:
+When the `timeRemaining` hits 0, do the following:
 
 - reset `timeRemaining` back to 10 seconds, so our next question will have a
   fresh timer; and
@@ -49,4 +44,5 @@ behavior, make sure to check out the resources below!
 - [setTimeout Using Hooks](https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks)
 - [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
 
+[side-effects]: https://en.wikipedia.org/wiki/Side_effect_(computer_science)#:~:text=In%20computer%20science%2C%20an%20operation,the%20invoker%20of%20the%20operation.
 [use-effect-hook]: https://reactjs.org/docs/hooks-effect.html
